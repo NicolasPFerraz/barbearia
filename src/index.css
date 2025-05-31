@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Define font styles for headings and paragraphs */
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+p, span, h3, li {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700; 
+}
+
+li {
+  font-weight: 400;
 }

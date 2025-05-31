@@ -1,4 +1,7 @@
+import Container from '../layout/Container'
 import Navbar from '../layout/Navbar'
+import Footer from '../layout/Footer'
+
 import Hero from '../components/HomeSections/Hero'
 import About from '../components/HomeSections/About'
 import Services from '../components/HomeSections/Services'
@@ -8,7 +11,7 @@ import Contact from '../components/HomeSections/Contact'
 
 export default function Home() {
   return (
-    <>
+    <Container>
       <Navbar />
       <section id="hero"><Hero /></section>
       <section id="sobre"><About /></section>
@@ -16,6 +19,7 @@ export default function Home() {
       <section id="galeria"><Gallery /></section>
       <section id="depoimentos"><Testimonials /></section>
       <section id="contato"><Contact /></section>
-    </>
+      <Footer />
+    </Container>
   )
 }
