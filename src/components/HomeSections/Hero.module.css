@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 300px 0 300px 0;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.54; /* Altere este valor para a opacidade desejada */
+  z-index: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  color: #F2F5FF;
+}
+
+.content h2 {
+  font-size: 64px;
+  text-decoration: underline;
+}
+
+.content p {
+  padding: 25px 0 25px;
+}
+
+.content button {
+  margin-top: 10px;
+} 

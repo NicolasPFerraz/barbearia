@@ -20,6 +20,6 @@ export default function Home() {
       <section id="depoimentos"><Testimonials /></section>
       <section id="contato"><Contact /></section>
       <Footer />
-    </Container>
+    </Container >
   )
 }

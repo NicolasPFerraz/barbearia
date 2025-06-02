@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 250px;
+  background-color: #24201A;
+  background-image: url('../../assets/black-linen.png');
+  /* Ajuste a opacidade da textura na própria imagem, se necessário */
+}
+
+.aboutContent {
+  padding: 20px 0 20px;
+}
+
+.aboutContainer h2 {
+  margin-bottom: 35px;
+}
+
+.aboutContainer p,
+.aboutContainer li {
+  font-weight: 300;
+}
+
+.aboutContainer span {
+  font-family: 'Anton', sans-serif;
+  color: #E1DAD6;
+}
+
+.aboutContent div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.aboutContainer div ul {
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+/* Image styles */
+.aboutContainer img {
+  max-width: 900px;
+  max-height: 900px;
+}
+
+/* Icon styles */
+.aboutContainer .icon {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  color: #E1DAD6;
+}

@@ -1,0 +1,26 @@
+.ctaButton {
+  background-color: #24201A;
+  padding: 30px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1px solid #F2F5FF;
+}
+
+.ctaButton:hover {
+  background-color: #12100D;
+  color: #24201A;
+  cursor: pointer;
+}
+
+.ctaButton p {
+  font-weight: 700;
+}
+
+.whatsappIcon {
+  font-size: 23px;
+  color: #25D366;
+}

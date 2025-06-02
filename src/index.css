@@ -8,20 +8,48 @@
 }
 
 /* Define font styles for headings and paragraphs */
-h1, h2 {
+h1,
+h2 {
   font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  color: #F2F5FF;
 }
 
-p, span, h3, li {
+p,
+span,
+h3,
+li {
   font-family: 'Roboto', sans-serif;
 }
 
+li {
+  font-size: 16px;
+  color: #F2F5FF;
+}
+
+h3 {
+  font-size: 24px;
+  color: #F2F5FF;
+  font-weight: 700;
+}
+
 p {
+  color: #F2F5FF;
+  font-size: 18px;
   font-weight: 400;
 }
 
 h3 {
-  font-weight: 700; 
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F2F5FF;
 }
 
 li {
