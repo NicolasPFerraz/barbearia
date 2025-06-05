@@ -1,6 +1,6 @@
 import styles from './About.module.css'
 
-import aboutImg from '../../assets/about-background.png'
+import aboutImg from '../../assets/about-img.png'
 
 import { RiScissorsFill } from "react-icons/ri"
 
@@ -12,8 +12,11 @@ export default function About() {
         <h2>POR QUE ESCOLHER A <span>BarberShop</span>?</h2>
         <div>
           <h3>Sobre nós</h3>
+          <p className={styles.bold}>
+            Desde 2018, cuidando do seu estilo com atitude e precisão.
+          </p>
           <p>
-            Desde 2018, a Barber Shop une tradição e modernidade para <br></br>cuidar do seu estilo com qualidade e respeito.
+            Na Barber Shop, tradição e inovação andam lado a lado para oferecer cortes, barbas <br></br> e experiências que valorizam quem você é. Qualidade, atenção e estilo em cada detalhe.
           </p>
         </div>
         <div>

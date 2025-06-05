@@ -1,0 +1,51 @@
+.openingHoursContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: #12100D;
+  background-image: url('/src/assets/dark-leather.png');
+  padding: 50px 10%;
+}
+
+.openingHoursContainer h2 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.openingHoursContainer img {
+  margin-bottom: 10px;
+}
+
+.openingHoursContent p {
+  font-size: 16px;
+  color: #BDBDBD;
+  margin-bottom: 15px;
+}
+
+.openingHoursContainer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+
+.openingHoursContainer ul li {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  border-bottom: 1px solid #F2F5FF;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.openingHoursContainer ul li:last-child {
+  border-bottom: none;
+}
+
+.gold {
+  color: #AE8858;
+}
+
+.openingHoursContainer > :last-child {
+  align-self: center;
+}
