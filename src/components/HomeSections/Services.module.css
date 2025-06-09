@@ -1,0 +1,89 @@
+.servicesContainer {
+  background-color: #24201A;
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+}
+
+.servicesContainer .separatorLine {
+  border-top: 1px solid #F2F5FF;
+  width: 100px;
+}
+
+.servicesContainer p {
+  font-weight: 400;
+}
+
+/* Service Cards */
+.servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.serviceCard {
+  position: relative;
+  border: 1px solid #F2F5FF;
+  border-radius: 5px;
+  max-width: 350px;
+  overflow: hidden; /* importante para não vazar conteúdo */
+}
+
+.serviceCard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  opacity: 0.7;
+}
+
+.serviceCard .serviceCardContent img {
+  width: 29px;
+}
+
+.serviceTitle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.serviceCard h3 {
+  font-size: 24px;
+}
+
+.serviceCardContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6); /* fundo escuro translúcido */
+  display: flex;
+  flex-direction: column;;
+  justify-content: center; /* conteúdo na parte de baixo */
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  gap: 10px;
+}
+
+.serviceCardContent .priceText {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.serviceCardContent .priceValue {
+  font-size: 24px;
+  font-weight: 900;
+}
