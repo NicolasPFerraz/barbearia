@@ -17,13 +17,14 @@
   flex-direction: row; 
   justify-content: center;
   gap: 30px;
+  margin-bottom: 25px;
 }
 
 .photoColumn {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
+  }
 
 .separatorLine {
   border-top: 1px solid #F2F5FF;
@@ -33,3 +34,19 @@
 .photosContainer img {
   width: 100%;
 } 
+
+.instagramButton {
+  background-color: #32302D;
+  padding: 15px 20px;
+  border: 1px solid #F2F5FF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.instagramButton span {
+  font-size: 16px;
+  font-weight: 800;
+  color: #F2F5FF;
+}

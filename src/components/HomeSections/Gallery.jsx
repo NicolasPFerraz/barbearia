@@ -1,6 +1,8 @@
 import styles from './Gallery.module.css'
 
 import galleryIcon from '../../assets/icons/gallery-icon.png'
+import instagramIcon from '../../assets/icons/instagram-icon.png'
+
 import photo1 from '../../assets/photo-1.png'
 import photo2 from '../../assets/photo-2.png'
 import photo3 from '../../assets/photo-3.png'
@@ -30,6 +32,10 @@ export default function Gallery() {
           <img src={photo6}></img>
         </div>
       </div>
+      <button className={styles.instagramButton}>
+        <img src={instagramIcon} alt='Ícone do Instagram'></img>
+        <span>Confira nosso perfil no Instagram</span>
+      </button>
     </div>
   )
 }
