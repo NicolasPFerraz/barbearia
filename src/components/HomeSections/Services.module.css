@@ -10,7 +10,7 @@
 .titleContainer {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 25px;
   align-items: center;
 }
 
