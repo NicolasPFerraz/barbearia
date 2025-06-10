@@ -1,0 +1,30 @@
+.testimonialsContainer {
+  padding: 50px 10%;
+  background-color: #24201A;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.testimonialsContainer h2 {
+  text-decoration: underline;
+}
+
+.testimonialsCard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* Style each individual card*/
+
+.testimonialCard {
+  background-color: #F2F5FF;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.testimonialCard h3 {
+  color: #000000;
+}
